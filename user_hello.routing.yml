@@ -1,0 +1,7 @@
+user_hello.content:
+  path: '/admin/config/people/hello'
+  defaults:
+    _controller: '\Drupal\user_hello\Controller\HelloAdminController::content'
+    _title: 'Hello Message'
+  requirements:
+    _permission: 'administer account settings'

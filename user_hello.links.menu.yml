@@ -1,0 +1,6 @@
+user_hello.admin:
+  title: 'Hello User Admin settings'
+  description: 'Show a message below the hello user login info block'
+  parent: user.admin_index
+  route_name: user_hello.content
+  weight: 100
