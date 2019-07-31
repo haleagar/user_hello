@@ -4,6 +4,7 @@ type: module
 dependencies:
   - views
   - block
+  - config_pages
 # core: '8.x'
 package: People
 

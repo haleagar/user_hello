@@ -1,0 +1,16 @@
+uuid: e3dc3b80-6fdf-4f36-861d-a8a5fbe17852
+langcode: en
+status: true
+dependencies: {  }
+id: user_hello_admin_settings
+label: 'User Hello Admin settings'
+context:
+  show_warning: true
+  group:
+    language: false
+  fallback:
+    language: ''
+menu:
+  path: /admin/config/people/hello-config
+  weight: 0
+  description: 'Show a message below the hello user login info block'

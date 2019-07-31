@@ -1,0 +1,23 @@
+uuid: ca826489-8694-4231-91d8-1bf708d8ef0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.user_hello_admin_settings
+    - field.storage.config_pages.field_show_welcome_to_anonymous
+id: config_pages.user_hello_admin_settings.field_show_welcome_to_anonymous
+field_name: field_show_welcome_to_anonymous
+entity_type: config_pages
+bundle: user_hello_admin_settings
+label: 'Show Welcome to Anonymous'
+description: "This text can be shown to welcome all users including anonymous\_visitors or only shown to logged in users depending on your needs and it's content."
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Show To all visitors'
+  off_label: 'Off'
+field_type: boolean

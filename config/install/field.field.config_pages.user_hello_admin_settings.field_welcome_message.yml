@@ -1,0 +1,24 @@
+uuid: 88393a35-c7b0-44da-8771-6aff5468880e
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.user_hello_admin_settings
+    - field.storage.config_pages.field_welcome_message
+  module:
+    - text
+id: config_pages.user_hello_admin_settings.field_welcome_message
+field_name: field_welcome_message
+entity_type: config_pages
+bundle: user_hello_admin_settings
+label: 'Welcome Message'
+description: "Edit the message here or delete the text if you want no message.\r\n"
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>Welcome message shown below the User Hello block.&nbsp; Edit or delete this text.</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

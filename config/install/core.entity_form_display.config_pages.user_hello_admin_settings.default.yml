@@ -1,0 +1,32 @@
+uuid: 536bc0ff-dd75-41b2-a5ac-480e9c9e8a28
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.user_hello_admin_settings
+    - field.field.config_pages.user_hello_admin_settings.field_show_welcome_to_anonymous
+    - field.field.config_pages.user_hello_admin_settings.field_welcome_message
+  module:
+    - text
+id: config_pages.user_hello_admin_settings.default
+targetEntityType: config_pages
+bundle: user_hello_admin_settings
+mode: default
+content:
+  field_show_welcome_to_anonymous:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_welcome_message:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  label: true
