@@ -1,0 +1,25 @@
+uuid: 39194113-90cb-482d-81e8-d5ce140a6d3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.user_hello
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__user_hello_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:user_hello-block_1'
+settings:
+  id: 'views_block:user_hello-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

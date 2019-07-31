@@ -1,0 +1,8 @@
+uuid: d813b61f-24d8-43d8-a27e-199b93b56ed2
+langcode: en
+status: true
+dependencies: {  }
+id: login_time
+label: 'Login Time'
+locked: false
+pattern: 'F dS, Y g:i a'

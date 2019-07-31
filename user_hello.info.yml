@@ -1,0 +1,12 @@
+name: User Hello
+description: 'Displays user welcome and login in sidebar'
+type: module
+dependencies:
+  - views
+  - block
+# core: '8.x'
+package: People
+
+version: '8.x-1.x'
+core: '8.x'
+project: 'user_hello'
